@@ -1,3 +1,4 @@
+// tailwind.config.js
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -15,7 +16,7 @@ export default {
         },
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'], // Atur Inter sebagai font default
+        sans: ['Inter', 'sans-serif'],
       },
       backgroundImage: {
         'hero-pattern': "url('/bg.jpg')",
