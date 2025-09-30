@@ -47,13 +47,13 @@ export default {
       },
       // 5. Pattern Hero yang Lebih Menarik
       backgroundImage: {
-         'hero-pattern': "url('src/assets/hero-background.jpeg')",
-         'katalog-pattern': "linear-gradient(to right, rgba(249, 250, 251, 0.50), rgba(243, 244, 246, 0.50)), url('/src/assets/frame-cewek2.jpeg')",
-         'layanan-pattern': "linear-gradient(to right, rgba(249, 250, 251, 0.50), rgba(243, 244, 246, 0.50)), url('/src/assets/optik3.jpeg')",
-         'tentang-pattern': "linear-gradient(to right, rgba(249, 250, 251, 0.50), rgba(243, 244, 246, 0.50)), url('/src/assets/optik2.jpeg')",
-         'kontak-pattern':  "linear-gradient(to right, rgba(249, 250, 251, 0.50), rgba(243, 244, 246, 0.50)), url('/src/assets/optik.jpeg')",
-         'layanan-unggulan-pattern': "linear-gradient(to right, rgba(249, 250, 251, 0.50), rgba(243, 244, 246, 0.50)), url('/src/assets/kacamatamedio.jpeg')",
-         'testimoni-pattern': "linear-gradient(to right, rgba(249, 250, 251, 0.50), rgba(243, 244, 246, 0.50)), url('/src/assets/kacamata.jpeg')",
+         'hero-pattern': "url('assets/hero-background.jpeg')",
+         'katalog-pattern': "linear-gradient(to right, rgba(249, 250, 251, 0.50), rgba(243, 244, 246, 0.50)), url('/assets/frame-cewek2.jpeg')",
+         'layanan-pattern': "linear-gradient(to right, rgba(249, 250, 251, 0.50), rgba(243, 244, 246, 0.50)), url('/assets/optik3.jpeg')",
+         'tentang-pattern': "linear-gradient(to right, rgba(249, 250, 251, 0.50), rgba(243, 244, 246, 0.50)), url('/assets/optik2.jpeg')",
+         'kontak-pattern':  "linear-gradient(to right, rgba(249, 250, 251, 0.50), rgba(243, 244, 246, 0.50)), url('/assets/optik.jpeg')",
+         'layanan-unggulan-pattern': "linear-gradient(to right, rgba(249, 250, 251, 0.50), rgba(243, 244, 246, 0.50)), url('/assets/kacamatamedio.jpeg')",
+         'testimoni-pattern': "linear-gradient(to right, rgba(249, 250, 251, 0.50), rgba(243, 244, 246, 0.50)), url('/assets/kacamata.jpeg')",
 
       },
     },
