@@ -33,8 +33,8 @@ export const Footer = () => {
                     <div>
                         <h3 className="font-semibold uppercase tracking-wider">Kontak</h3>
                         <p className="mt-4 text-sm text-neutral-300">
-                            Jl. Merdeka No. 123, Jakarta Pusat<br/>
-                            (021) 123-4567
+                            Pasar, Bandarsari, Kec. Padang Ratu, Kabupaten Lampung Tengah, Lampung 34175<br/>
+                            081311969585
                         </p>
                     </div>
                 </div>
