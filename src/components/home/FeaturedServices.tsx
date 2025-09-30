@@ -1,3 +1,5 @@
+// src/components/home/FeaturedServices.tsx
+
 import { Eye, Frame, Contact, Wrench } from 'lucide-react';
 import { Container } from '../ui/Container';
 
@@ -10,20 +12,21 @@ const services = [
 
 export function FeaturedServices() {
   return (
-    <section className="py-20 bg-white">
+    // Menggunakan background 'layanan-unggulan-pattern'
+    <section className="py-20 bg-layanan-unggulan-pattern bg-cover bg-center">
       <Container>
         <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold tracking-tight">Layanan Unggulan Kami</h2>
-            <p className="mt-2 text-lg text-neutral-muted">Memberikan yang terbaik untuk kesehatan mata Anda.</p>
+            <h2 className="text-3xl font-bold tracking-tight text-neutral-900">Layanan Unggulan Kami</h2>
+            <p className="mt-2 text-lg text-neutral-500">Memberikan yang terbaik untuk kesehatan mata Anda.</p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {services.map((service, index) => (
-                <div key={index} className="text-center p-6 border rounded-2xl shadow-soft">
+                <div key={index} className="text-center p-6 bg-white/80 backdrop-blur-sm border border-neutral-200/50 rounded-2xl shadow-soft transition-all hover:shadow-lift hover:-translate-y-1">
                     <div className="inline-block p-4 bg-primary/10 text-primary rounded-full mb-4">
                         <service.icon className="w-8 h-8" />
                     </div>
-                    <h3 className="font-semibold text-lg">{service.title}</h3>
-                    <p className="mt-2 text-sm text-neutral-muted">{service.description}</p>
+                    <h3 className="font-semibold text-lg text-neutral-900">{service.title}</h3>
+                    <p className="mt-2 text-sm text-neutral-500">{service.description}</p>
                 </div>
             ))}
         </div>

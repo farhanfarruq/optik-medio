@@ -7,6 +7,8 @@ import { CartDrawer } from '../cart/CartDrawer';
 import { AnimatePresence, motion } from 'framer-motion';
 import { buildWhatsAppConsultationURL } from '../../utils/whatsapp';
 import { Container } from '../ui/Container';
+import logo from '../../assets/medio.jpeg'; // 1. Impor logo Anda di sini
+
 
 const navLinks = [
   { href: '/katalog', label: 'Katalog' },
@@ -30,7 +32,7 @@ export function Navbar() {
       <header className="sticky top-0 z-50 w-full border-b border-neutral-200/80 bg-white/80 backdrop-blur-md">
         <Container className="flex h-16 items-center justify-between">
           <Link to="/" className="flex items-center gap-2 font-bold text-lg">
-            <Glasses className="h-6 w-6 text-primary" />
+            <img src={logo} alt="Optik Medio Logo" className="h-8 w-auto" />
             <span>Optik Medio</span>
           </Link>
           
