@@ -49,7 +49,7 @@ export default {
       backgroundImage: {
          'hero-pattern': "url('/assets/hero-background.jpeg')",
          'katalog-pattern': "linear-gradient(to right, rgba(249, 250, 251, 0.50), rgba(243, 244, 246, 0.50)), url('/assets/frame-cewek2.jpeg')",
-         'layanan-pattern': "linear-gradient(to right, rgba(249, 250, 251, 0.50), rgba(243, 244, 246, 0.50)), url('/assets/optik3.jpeg')",
+         'layanan-pattern': "linear-gradient(to right, rgba(249, 250, 251, 0.50), rgba(243, 244, 246, 0.50)), url('/assets/kacamata.jpeg')",
          'tentang-pattern': "linear-gradient(to right, rgba(249, 250, 251, 0.50), rgba(243, 244, 246, 0.50)), url('/assets/optik2.jpeg')",
          'kontak-pattern':  "linear-gradient(to right, rgba(249, 250, 251, 0.50), rgba(243, 244, 246, 0.50)), url('/assets/optik.jpeg')",
          'layanan-unggulan-pattern': "linear-gradient(to right, rgba(249, 250, 251, 0.50), rgba(243, 244, 246, 0.50)), url('/assets/kacamatamedio.jpeg')",

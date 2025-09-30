@@ -10,6 +10,7 @@ import { Container } from '../ui/Container';
 
 
 const navLinks = [
+  { href: '/', label: 'Beranda' },
   { href: '/katalog', label: 'Katalog' },
   { href: '/layanan', label: 'Layanan' },
   { href: '/tentang-kami', label: 'Tentang Kami' },
