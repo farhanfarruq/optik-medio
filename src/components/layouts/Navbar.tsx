@@ -1,5 +1,5 @@
 import { Link, NavLink } from 'react-router-dom';
-import { Glasses, ShoppingCart, Menu } from 'lucide-react';
+import { ShoppingCart, Menu } from 'lucide-react';
 import { Button } from '../ui/Button';
 import { useCartStore } from '../../hooks/useCartStore';
 import { useState } from 'react';

@@ -1,4 +1,3 @@
-import { Glasses } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Container } from '../ui/Container';
 import logo from '../../assets/medio.jpeg'; // 1. Impor logo Anda di sini
